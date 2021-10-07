@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Dzīvības ceļš</h1>
+<p>Esat laipni gaidīti.</p>
+
+</body>
+</html>
+
+<a href="https://www.google.lv/maps/search/Ķekavas+nov.,+Ķekavas+pag.,+Ķekava,+Nākotnes+iela+2/@56.846475,24.2142172,13z?hl=lv">Atrašanās vieta</a>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>
+    Laikā, kad pasaule dzīvo nedrošība par nākotni
+</p>
+
+<p>
+ Kā draudze, arī mēs turpinam funkcionēt šajā laikā. Ņemot vērā valsts noteiktos ierobežojumus, mēs iedrošinam cilvēkus pievienoties dievkalpojumiem tiešraidē.
+</p>
+
+<p>
+Mēs aicinām ikvienu respektēt valsts noteikto kārtību, turpināt rūpēties par savu un līdzgaitnieku veselību, kā arī turpināt būt par aktīvu Kristus mācekli īpaši šajā laikā, kad pasaulē meklē atbildes un cerību.
+</p>
+
+<p>
+Turpināsim pastāvēt vienoti mīlestībā un lūgšanās.
+</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Image</h2>
+<img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
+
+</body>
+</html>
