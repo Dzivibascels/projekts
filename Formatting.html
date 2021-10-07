@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+      background-color: rgb(115, 157, 221);
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+      float: left;
+      width: 30%;
+      height: 530px; 
+      background: rgb(133, 193, 228);
+      padding: 20px;;
+      text-align: center;
+      font-size: 18px;
+      color: white;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+.photos { 
+
+
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Dzīvības ceļš</h2>
+</header>
+
+<section>
+  <nav>
+    <p>
+        Atrašanās vieta
+    </p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2183.051556405656!2d24.236736916119433!3d56.82790471602776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eed350c7ca101d%3A0xd73a749d1c091a2d!2sN%C4%81kotnes%20iela%201%2C%20%C4%B6ekava%2C%20%C4%B6ekavas%20pagasts%2C%20LV-2123!5e0!3m2!1slv!2slv!4v1633602796628!5m2!1slv!2slv" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </nav>
+  
+  <article>
+ 
+    <p>    Mēs esam augoša, mūsdienīga, 
+        visiem atvērta Dieva ģimene “Cerība”, 
+        kas, Svētā Gara vadīta, sludina Jēzus Kristus 
+        evaņģēliju.</p>
+    
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>

@@ -1,2 +1,0 @@
-# projekts
- cfg test
