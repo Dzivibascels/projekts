@@ -1,2 +1,1 @@
-# projekts
- cfg test
+Baznīcas Mājaslapa 
