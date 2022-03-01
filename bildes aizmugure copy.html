@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+  </head>
+  <body>
+
+    <select id="izvele">
+      <option>pirmais</option>
+      <option>otrais</option>
+      <option>tresais</option>
+
+    </select>
+    <button onclick="poga()">spied</button>
+
+    <script>
+      function poga(){
+        let izvelesNr = document.getElementById("izvele").selectedIndex;
+        console.log(document.getElementById("izvele").options[izvelesNr].text);
+      }
+    </script>
+  
+    <script>
+      let kabata =4;
+      kabata++; //pieskaita kabatas vērtībai 1
+      const cits = "vertiba";
+      let otra = 7;
+      console.log (cits+kabata+otra);
+
+      let saraksts = ["abols", "bumbieris", 4, 8];
+      console.log (saraksts[2]+saraksts[3]);
+      saraksts.push("jauns")
+      saraksts[9]="vēl cits"
+      console.log(saraksts)
+
+      console.log(document.getElementById("izvele").options[1].text);
+      console.log(cits[0]);
+    </script>
+  </body>
+</html>
